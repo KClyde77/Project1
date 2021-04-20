@@ -14,3 +14,4 @@ primary key (usersEmail)
 );
 
 select * from users;
+ALTER TABLE users ADD UserId VARCHAR(255) NOT NULL; 
